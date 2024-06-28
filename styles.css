@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-image: url("https://blog.openreplay.com/images/web-design--mobile-first-desktop-first-what/images/hero.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.hero-section {
+    background-image: url("https://blog.openreplay.com/images/web-design--mobile-first-desktop-first-what/images/hero.png") ;
+    color: #f67410;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://blog.openreplay.com/images/web-design--mobile-first-desktop-first-what/images/hero.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.btn {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #e65c00;
+}
+
+.about-section, .services-section, .contact-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    background: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #e65c00;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+#about
+{
+    background-image: url("https://i.pinimg.com/736x/bd/ac/32/bdac327b05ddaa05216dfa08c9e734c3.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#services
+{
+    background-image: url("https://i.pinimg.com/736x/bd/ac/32/bdac327b05ddaa05216dfa08c9e734c3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact
+{
+    background-image: url("https://wallpapercave.com/wp/wp11889717.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
